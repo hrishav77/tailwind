@@ -57,15 +57,20 @@
     }
     .bits{
         @apply
-        w-[280px] m-7
+        w-[280px] m-7 sm:mx-[250px] md:mx-[550px]
     }
     .institute{
         @apply
-        bg-gradient-to-r from-cyan-300 via-gray-200 to-cyan-300
+        bg-gradient-to-r from-cyan-300 via-gray-200 to-cyan-300 md:h-[600px]
+        flex justify-center flex-col w-screen
     }
     .explore{
         @apply
         text-center flex justify-center text-black m-5
+    }
+    .institutetxt{
+        @apply
+        md:text-2xl
     }
 }
 

@@ -750,7 +750,25 @@ video {
   width: 280px;
 }
 
+@media (min-width: 640px){
+  .bits{
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media (min-width: 768px){
+  .bits{
+    margin-left: 550px;
+    margin-right: 550px;
+  }
+}
+
 .institute{
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #67e8f9;
   --tw-gradient-to: rgb(103 232 249 / 0);
@@ -760,6 +778,12 @@ video {
   --tw-gradient-to: #67e8f9;
 }
 
+@media (min-width: 768px){
+  .institute{
+    height: 600px;
+  }
+}
+
 .explore{
   margin: 1.25rem;
   display: flex;
@@ -767,6 +791,13 @@ video {
   text-align: center;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .institutetxt{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .m-2{
@@ -949,8 +980,47 @@ h1{
 }
 
 @media (min-width: 768px){
+  .md\:mx-10{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .md\:mx-16{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .md\:mx-12{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
   .md\:h-72{
     height: 18rem;
+  }
+
+  .md\:h-\[300px\]{
+    height: 300px;
+  }
+
+  .md\:h-\[200px\]{
+    height: 200px;
+  }
+
+  .md\:h-\[100px\]{
+    height: 100px;
+  }
+
+  .md\:h-\[150px\]{
+    height: 150px;
+  }
+
+  .md\:w-\[500px\]{
+    width: 500px;
+  }
+
+  .md\:w-\[400px\]{
+    width: 400px;
   }
 
   .md\:text-6xl{
