@@ -21,7 +21,7 @@
     .btn {
         @apply 
         m-2  text-xs md:text-2xl flex items-end
-        text-transparent bg-clip-text 
+         bg-clip-text text-transparent
         bg-gradient-to-r from-blue-500 to-black
     }
     .face {
@@ -52,8 +52,8 @@
     }
     .contact{
         @apply 
-        bg-cyan-500 m-0
-        px-6 w-screen h-[50px]  text-[8px] py-3 md:text-lg md:h-[100px] text-blue-900
+        bg-cyan-600 m-0
+        px-6 w-screen h-[50px]  text-[10px] py-3 md:text-lg md:h-[100px] text-gray-700
     }
     .bits{
         @apply
@@ -63,9 +63,9 @@
         @apply
         bg-gradient-to-r from-cyan-300 via-gray-200 to-cyan-300
     }
-    .btn{
+    .explore{
         @apply
-        text-center flex justify-center text-black
+        text-center flex justify-center text-black m-5
     }
 }
 
