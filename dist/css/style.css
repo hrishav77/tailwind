@@ -704,6 +704,12 @@ video {
   left: 1rem;
 }
 
+@media (min-width: 768px){
+  .skilltext{
+    left: 4rem;
+  }
+}
+
 .skillsimg{
   height: 20rem;
 }
@@ -711,6 +717,7 @@ video {
 @media (min-width: 768px){
   .skillsimg{
     height: 600px;
+    width: 1600px;
   }
 }
 
@@ -727,6 +734,14 @@ video {
   font-size: 8px;
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .contact{
+    height: 100px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 .m-2{
@@ -765,6 +780,10 @@ video {
 
 .justify-end{
   justify-content: flex-end;
+}
+
+.bg-\[rgba\(38\2c 165\2c 154\2c 255\)\]{
+  background-color: rgba(38,165,154,255);
 }
 
 .bg-gradient-to-r{

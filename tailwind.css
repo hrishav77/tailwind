@@ -44,16 +44,16 @@
     }
     .skilltext{
         @apply
-        absolute top-2  left-4 
+        absolute top-2  left-4 md:left-16 
     }
     .skillsimg{
         @apply
-        h-80  md:h-[600px] 
+        h-80  md:h-[600px] md:w-[1600px] 
     }
     .contact{
         @apply 
         bg-cyan-500 m-0
-        px-6 w-screen h-[50px]  text-[8px] py-3 text-blue-900
+        px-6 w-screen h-[50px]  text-[8px] py-3 md:text-lg md:h-[100px] text-blue-900
     }
 }
 
