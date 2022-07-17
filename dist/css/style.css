@@ -659,6 +659,7 @@ video {
 
 .about{
   display: flex;
+  height: 250px;
   width: 100vw;
   flex-direction: row;
   justify-content: space-around;
@@ -744,6 +745,29 @@ video {
   }
 }
 
+.bits{
+  margin: 1.75rem;
+  width: 280px;
+}
+
+.institute{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #bfdbfe;
+  --tw-gradient-to: rgb(191 219 254 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(229 231 235 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #e5e7eb, var(--tw-gradient-to);
+  --tw-gradient-to: #fde047;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .m-2{
   margin: 0.5rem;
 }
@@ -782,8 +806,17 @@ video {
   justify-content: flex-end;
 }
 
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
 .bg-\[rgba\(38\2c 165\2c 154\2c 255\)\]{
   background-color: rgba(38,165,154,255);
+}
+
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -803,6 +836,10 @@ video {
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .text-center{
@@ -829,6 +866,11 @@ video {
   line-height: 1rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-transparent{
   color: transparent;
 }
@@ -846,6 +888,11 @@ video {
 .text-cyan-100{
   --tw-text-opacity: 1;
   color: rgb(207 250 254 / var(--tw-text-opacity));
+}
+
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -867,6 +914,11 @@ video {
           clip-path: circle();
 }
 
+.bits{
+  -webkit-clip-path: ellipse();
+          clip-path: ellipse();
+}
+
 .nav {
   font-family: 'Merienda', cursive;
 }
@@ -879,7 +931,7 @@ h1{
   font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
-.abouttext{
+.abouttext,.institutetxt{
   font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
