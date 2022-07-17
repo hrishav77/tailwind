@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,7 +31,7 @@
     .about {
         @apply
         bg-gradient-to-r from-green-300 to-blue-400 w-screen
-        flex flex-row justify-around 
+        flex flex-row justify-around  md:h-[500px]
     }
     .abouttext{
         @apply
@@ -39,7 +39,7 @@
     }
     .skills{
         @apply
-        relative
+        relative p-0 m-0
     }
     .skilltext{
         @apply
@@ -47,7 +47,12 @@
     }
     .skillsimg{
         @apply
-        h-96
+        h-96  md:h-[600px] 
+    }
+    .contact{
+        @apply 
+        bg-cyan-500 m-0
+        px-6 w-screen h-[50px]  text-[8px] py-3 text-blue-900
     }
 }
 
@@ -60,4 +65,10 @@
 
 h1{
     font-family: Monotype Corsiva;
+}
+#skilltext{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.abouttext{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
