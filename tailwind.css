@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,7 +26,7 @@
     .face {
         @apply
         w-auto bg-clip-border
-        h-96 m-7 
+        md:h-96 m-5 h-72
     }
     .about {
         @apply
@@ -35,7 +35,7 @@
     }
     .abouttext{
         @apply
-        text-center text-white  flex items-center 
+        text-center text-white  flex items-center   text-xs md:text-lg
     }
     .skills{
         @apply
@@ -45,13 +45,17 @@
         @apply
         absolute top-2  left-4 
     }
+    .skillsimg{
+        @apply
+        h-96
+    }
 }
 
 .face {
     clip-path: circle();
 }
 .nav {
-    font-family: Edu VIC WA NT Beginner;
+    font-family: gabriola;
 }
 
 h1{
