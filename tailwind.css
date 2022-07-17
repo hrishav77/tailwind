@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Merienda&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,7 +20,7 @@
     }
     .btn {
         @apply 
-        m-2 text-2xl flex items-end
+        m-2  text-sm md:text-2xl flex items-end
         text-transparent bg-clip-text 
         bg-gradient-to-r from-blue-500 to-black
     }
@@ -60,11 +61,11 @@
     clip-path: circle();
 }
 .nav {
-    font-family: gabriola;
+    font-family: 'Merienda', cursive;
 }
 
 h1{
-    font-family: Monotype Corsiva;
+    font-family: 'Dancing Script', cursive;
 }
 #skilltext{
     font-family: 'Edu VIC WA NT Beginner', cursive;

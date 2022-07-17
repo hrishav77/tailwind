@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Merienda&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&display=swap');
 
 /*
 ! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
@@ -632,9 +634,16 @@ video {
   --tw-gradient-to: #000;
   -webkit-background-clip: text;
           background-clip: text;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   color: transparent;
+}
+
+@media (min-width: 768px){
+  .btn{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .face{
@@ -803,6 +812,11 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-transparent{
   color: transparent;
 }
@@ -842,11 +856,11 @@ video {
 }
 
 .nav {
-  font-family: gabriola;
+  font-family: 'Merienda', cursive;
 }
 
 h1{
-  font-family: Monotype Corsiva;
+  font-family: 'Dancing Script', cursive;
 }
 
 #skilltext{
