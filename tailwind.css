@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Merienda&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Merienda&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,14 +20,14 @@
     }
     .btn {
         @apply 
-        m-2  text-sm md:text-2xl flex items-end
+        m-2  text-xs md:text-2xl flex items-end
         text-transparent bg-clip-text 
         bg-gradient-to-r from-blue-500 to-black
     }
     .face {
         @apply
         w-auto bg-clip-border
-        md:h-96 m-5 h-72
+        md:h-96 m-5 h-40
     }
     .about {
         @apply
@@ -48,7 +48,7 @@
     }
     .skillsimg{
         @apply
-        h-96  md:h-[600px] 
+        h-80  md:h-[600px] 
     }
     .contact{
         @apply 

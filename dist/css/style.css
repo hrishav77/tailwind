@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Merienda&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&display=swap');
-
 /*
 ! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
 */
@@ -634,8 +632,8 @@ video {
   --tw-gradient-to: #000;
   -webkit-background-clip: text;
           background-clip: text;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: transparent;
 }
 
@@ -648,7 +646,7 @@ video {
 
 .face{
   margin: 1.25rem;
-  height: 18rem;
+  height: 10rem;
   width: auto;
   background-clip: border-box;
 }
@@ -707,7 +705,7 @@ video {
 }
 
 .skillsimg{
-  height: 24rem;
+  height: 20rem;
 }
 
 @media (min-width: 768px){
@@ -757,8 +755,8 @@ video {
   display: flex;
 }
 
-.h-52{
-  height: 13rem;
+.h-40{
+  height: 10rem;
 }
 
 .flex-col{
