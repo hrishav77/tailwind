@@ -40,15 +40,15 @@
     }
     .skills{
         @apply
-        relative p-0 m-0
+        relative p-0 m-0 w-screen
     }
     .skilltext{
         @apply
-        absolute top-2  left-4 md:left-16 
+        absolute top-2  left-4 md:left-16  
     }
     .skillsimg{
         @apply
-        h-80  md:h-[600px] md:w-[1600px] 
+        h-80  md:h-[600px]  w-screen
     }
     .contact{
         @apply 
@@ -70,7 +70,11 @@
     }
     .institutetxt{
         @apply
-        md:text-2xl
+        md:text-2xl border-blue-300 border-4 
+    }
+    .hobbytext{
+        @apply
+        sm:text-2xl md:text-5xl m-4 text-yellow-300
     }
 }
 
@@ -90,6 +94,6 @@ h1{
 #skilltext{
     font-family: 'Edu VIC WA NT Beginner', cursive;
 }
-.abouttext,.institutetxt{
+.abouttext,.institutetxt,.hobbytext{
     font-family: 'Edu VIC WA NT Beginner', cursive;
 }
