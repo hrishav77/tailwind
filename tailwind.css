@@ -32,11 +32,11 @@
     .about {
         @apply
         bg-gradient-to-r from-green-300 to-blue-400 w-screen
-        flex flex-row justify-around  h-[250px] md:h-[500px]
+        flex flex-row justify-around  h-[250px] md:h-[500px] 
     }
     .abouttext{
         @apply
-        text-center text-white  flex items-center   text-xs md:text-lg
+        text-center text-white  flex items-center   text-xs md:text-lg flex-grow
     }
     .skills{
         @apply
@@ -57,7 +57,7 @@
     }
     .bits{
         @apply
-        w-[280px] m-7 sm:mx-[250px] md:mx-[550px]
+          block w-auto mx-auto my-auto
     }
     .institute{
         @apply

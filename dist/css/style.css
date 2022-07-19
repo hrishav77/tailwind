@@ -678,6 +678,7 @@ video {
 
 .abouttext{
   display: flex;
+  flex-grow: 1;
   align-items: center;
   text-align: center;
   font-size: 0.75rem;
@@ -747,22 +748,12 @@ video {
 }
 
 .bits{
-  margin: 1.75rem;
-  width: 280px;
-}
-
-@media (min-width: 640px){
-  .bits{
-    margin-left: 250px;
-    margin-right: 250px;
-  }
-}
-
-@media (min-width: 768px){
-  .bits{
-    margin-left: 550px;
-    margin-right: 550px;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  width: auto;
 }
 
 .institute{
@@ -851,18 +842,9 @@ video {
   margin: 0.75rem;
 }
 
-.m-4{
-  margin: 1rem;
-}
-
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .my-8{
@@ -1040,31 +1022,21 @@ h1{
 }
 
 @media (min-width: 640px){
+  .sm\:h-\[500px\]{
+    height: 500px;
+  }
+
   .sm\:h-\[400px\]{
     height: 400px;
   }
 
-  .sm\:h-\[500px\]{
-    height: 500px;
+  .sm\:text-\[10px\]{
+    font-size: 10px;
   }
 
   .sm\:text-5xl{
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-\[10px\]{
-    font-size: 10px;
   }
 }
 
@@ -1101,11 +1073,6 @@ h1{
   .md\:text-8xl{
     font-size: 6rem;
     line-height: 1;
-  }
-
-  .md\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-2xl{
